@@ -1,0 +1,36 @@
+@import "./color";
+ul.showMsg{
+	margin:0;
+	padding:0;
+	height: 86vh;
+	overflow: auto;
+	margin-top: 4vh;
+}
+.saySelf {
+    overflow: hidden;
+    margin-top: 2vh;
+}
+.sayOther {
+    overflow: hidden;
+    margin-top: 2vh;
+}
+.sayContent{
+    border: 1px solid $borderColor;
+    padding: 1% 1% 1% 2%;
+    word-break: break-all;
+}
+.saySelf .sayContent{
+	text-align: left;
+	float: left;
+}
+.sayOther .sayContent{
+	text-align: right;
+	float: right;
+}
+input.sendMsg {
+    width: 80%;
+    float: left;
+}
+button.send {
+    float: right;
+}
